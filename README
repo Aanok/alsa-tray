@@ -1,45 +1,42 @@
-============================================================================
-                            A L S A   T R A Y
-============================================================================
-  WEBSITE:  http://projects.flogisoft.com/alsa-tray/
-  VERSION:  0.6
-  REALISED: Sun, 08 Jan 2012 14:53:16 +0100 
-============================================================================
+**Original software copyright of Fabien Loison.**
 
-  ALSA Tray Provides a systray icon and a command line interface for
-  setting the volume of the ALSA Mixers.
 
-  Dependencies:
-    * [Needed  ] pyAlsaAudio <http://pyalsaaudio.sourceforge.net/>
+ALSA Tray Provides a systray icon and a command line interface for
+setting the volume of the ALSA Mixers.
 
-    * [Optional] Python XDG <http://freedesktop.org/wiki/Software/pyxdg>
-                 NOTE: Used for finding the best place for the
-                 config file.
 
-    * [Optional] PyGTK 2.x <http://pygtk.org/>
-                 NOTE: PyGTK is optional for using ALSA Tray with CLI, but
-                 it is needed for having a systray icon.
+=Dependencies=
+* [Needed  ] pyAlsaAudio <http://pyalsaaudio.sourceforge.net/>
 
-    * [Optional] DBus Python <http://cgit.freedesktop.org/dbus/dbus-python/>
-                 NOTE: Needed for the support of multimedia keys.
+* [Optional] Python XDG <http://freedesktop.org/wiki/Software/pyxdg>
+			 NOTE: Used for finding the best place for the
+			 config file.
 
-    * [Optional] HAL <http://www.freedesktop.org/wiki/Software/hal>
-                 NOTE: Needed for the support of multimedia keys.
+* [Optional] PyGTK 2.x <http://pygtk.org/>
+			 NOTE: PyGTK is optional for using ALSA Tray with CLI, but
+			 it is needed for having a systray icon.
 
-    * [Optional] pyNotify <http://www.galago-project.org/>
-                 NOTE: Needed for the notifications.
+* [Optional] DBus Python <http://cgit.freedesktop.org/dbus/dbus-python/>
+			 NOTE: Needed for the support of multimedia keys.
 
-  Building dependencies:
-    * [Optional] GNU gettext <http://www.gnu.org/software/gettext/>
+* [Optional] HAL <http://www.freedesktop.org/wiki/Software/hal>
+			 NOTE: Needed for the support of multimedia keys.
 
-  Usage:
-    run 'alsa-tray' for launching ALSA Tray in systray
-    run 'alsa-tray --help' or 'man alsa-tray' for help with CLI otions
+* [Optional] pyNotify <http://www.galago-project.org/>
+			 NOTE: Needed for the notifications.
 
-  Install:
-    For install ALSA Tray, run './install.sh --install' as root.
+Building dependencies:
+* [Optional] GNU gettext <http://www.gnu.org/software/gettext/>
 
-  Uninstall:
-    For uninstall ALSA Tray, run './install.sh --remove' as root.
 
-============================================================================
+=Usage=
+run `alsa-tray` for launching ALSA Tray in systray
+run `alsa-tray --help` or `man alsa-tray` for help with CLI otions
+
+
+=Install=
+For install ALSA Tray, run `./install.sh --install` as root.
+
+
+=Uninstall=
+For uninstall ALSA Tray, run `./install.sh --remove` as root.
