@@ -661,6 +661,7 @@ def notify(value, default=True):
     #Select icon
     icon_index = int((100 - value) * (len(OSD_ICON) - 1) / 100)
     #Notify
+    pynotify.init('alsa-tray')
     notification = pynotify.Notification(
             "Volume",
             "",
